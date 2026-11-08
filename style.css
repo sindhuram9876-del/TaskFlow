@@ -2064,3 +2064,20 @@ body.light .sidebar .brand .dot {
     }
 
 }
+
+/* MOBILE DATE INPUT FIX */
+@media (max-width: 768px) {
+    #dueDate {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        min-height: 44px;
+        padding: 10px;
+        color: var(--text);
+        background: var(--input);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-size: 14px;
+        color-scheme: dark;
+    }
+}
